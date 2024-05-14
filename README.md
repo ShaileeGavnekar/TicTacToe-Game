@@ -1,4 +1,0 @@
-# Tic Tac Toe Game
-It is implemented using HTML, CSS, and JavaScript, is a web-based, interactive application. The HTML provides the structure of the game, utilizing a grid layout to represent the game board. CSS is used for styling, defining the visual presentation of the game elements such as cells, symbols, and messages.
-JavaScript handles the game's logic, capturing user interactions and managing the state of the game board. It responds to player clicks on the grid, updating the board with X or O symbols accordingly.The game includes a win-checking algorithm that verifies if a player has formed a winning line or if the game has ended in a draw. A reset functionality is implemented to allow players to start a new game.
-Together, this combination of HTML, CSS, and JavaScript creates an interactive and visually appealing rendition of the classic Tic Tac Toe game accessible through a web browser.
