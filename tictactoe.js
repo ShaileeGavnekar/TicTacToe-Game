@@ -61,6 +61,7 @@ function checkWinner(){
 
     if(roundWon){
         statusText.textContent = `${currentPlayer} wins!`;
+        restartBtn.style.backgroundColor = "rgba(9, 112, 9, 0.418)";
         running = false;
     }
     else if(!options.includes("")){
@@ -76,5 +77,6 @@ function restartGame(){
     options = ["", "", "", "", "", "", "", "", ""];
     statusText.textContent = `${currentPlayer}'s turn`;
     cells.forEach(cell => cell.textContent = "");
+    restartBtn.style.backgroundColor = "";
     running = true;
 }
