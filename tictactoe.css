@@ -18,8 +18,7 @@
     margin: auto;
 }
 #restartBtn {
-    cursor: pointer; 
-}
-#restartBtn:hover{
+    cursor: pointer;
     background-color: rgba(218, 66, 66, 0.418);
 }
+
