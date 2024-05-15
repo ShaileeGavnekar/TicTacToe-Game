@@ -17,3 +17,9 @@
     width: 225px;
     margin: auto;
 }
+#restartBtn {
+    cursor: pointer; 
+}
+#restartBtn:hover{
+    background-color: rgba(218, 66, 66, 0.418);
+}
